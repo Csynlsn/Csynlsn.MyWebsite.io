@@ -49,6 +49,7 @@ nav ul li {
   text-align: center;
   font-size: 3em;
   margin-top: 1.5em;
+  text-shadow: #b3a367 1px 0 10px;
 }
 
 nav a {
@@ -69,15 +70,16 @@ nav a {
 .content h2 {
   text-align: center;
   margin-bottom: 1em;
+  font-size: 1.8em;
 }
 
 .content {/* Main page content goes in these */
   border: 1px solid #fff;
-  padding: 1.8em;
+  width: 80%;
   background-color: #000;
   color: #fff;
   opacity: .5;
-  margin: 3em;
+  margin: 3em auto;
   padding: 3em;
 }
 
@@ -105,3 +107,20 @@ footer a {
 }
 
 
+/* Mobile Media Queries */
+@media only screen and (max-width: 666px) {
+
+    #wrapper {
+      padding: 2em 0;
+    }
+    .content {
+      width: 95%;
+      margin: 1em;
+      padding: 1em;
+      text-align: justify;
+    }
+
+    .title {
+      margin-top: .75em;
+    }
+}
