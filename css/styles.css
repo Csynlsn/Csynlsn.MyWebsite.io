@@ -79,6 +79,7 @@ h2 {
   position: absolute;
   bottom: 5px;
   right: 14px;
+  color: #fff;
 }
 
 .content {/* Main page content goes in these */
@@ -106,8 +107,6 @@ h2 {
 
 .featured-image {
   width: 42%;
-  background-color: #000;
-  color: #fff;
   margin: 3em 1em;
   float: right;
   position: relative;
@@ -157,7 +156,7 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 860px) { /* alters layout on tours page when window is smaller */
+@media only screen and (max-width: 900px) { /* alters layout on tours page when window is smaller */
   .tour-content {
     border: 1px solid #fff;
     background-color: #000;
@@ -171,7 +170,6 @@ footer a {
   
   .featured-image {
     background-color: #000;
-    color: #fff;
     width: 95%;
     margin: 1em;
     float: none;
