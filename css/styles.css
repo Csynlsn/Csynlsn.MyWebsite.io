@@ -142,7 +142,8 @@ footer a {
     #wrapper {
       padding: 2em 0;
     }
-    .content {
+    .content,
+    .tour-content {
       width: 95%;
       margin: 1em;
       padding: 1em;
@@ -152,4 +153,25 @@ footer a {
     .title {
       margin-top: .75em;
     }
+}
+
+@media only screen and (max-width: 860px) { /* alters layout on tours page when window is smaller */
+  .tour-content {
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+    width: 95%;
+    margin: 1em;
+    padding: 1em;
+    float: none;
+  }
+  
+  .featured-image {
+    background-color: #000;
+    color: #fff;
+    width: 95%;
+    margin: 1em;
+    float: none;
+  }
 }
