@@ -61,16 +61,24 @@ nav a {
   font-family: 'Special Elite', cursive;
 }
 
-.content p {
+p {
   margin-top: 1em;
   font-family: 'Special Elite', cursive;
   line-height: 1.7;
 }
 
-.content h2 {
+h2 {
   text-align: center;
   margin-bottom: 1em;
   font-size: 1.8em;
+  text-shadow: #b3a367 1px 0 10px;
+}
+
+.image-caption {
+  font-style: italic;
+  position: absolute;
+  bottom: 5px;
+  right: 14px;
 }
 
 .content {/* Main page content goes in these */
@@ -83,12 +91,33 @@ nav a {
   padding: 3em;
 }
 
+/* Tours Page*/
 
+.tour-content {
+  border: 1px solid #fff;
+  width: 50%;
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
+  margin: 3em 1em;
+  padding: 3em;
+  float: left;
+}
+
+.featured-image {
+  width: 42%;
+  background-color: #000;
+  color: #fff;
+  margin: 3em 1em;
+  float: right;
+  position: relative;
+}
 /* Footer */
 
 footer {
   height: 180px;
   background-color: #000;
+  clear: both;
 }
 
 footer,
