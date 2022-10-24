@@ -32,6 +32,7 @@ width: 100%;
 }
 
 nav ul {
+  list-style-type: none;
   display: flex;
   justify-content: space-evenly;
   width: auto;
@@ -48,21 +49,22 @@ nav ul li:not(.dropdown li) {
 }
 
 .dropdown {
-  margin-left: 1em;
-  position: absolute;
-  top: 2em;
-  right: 1em;
   display: none;
+  flex-direction: column;
 }
 
 .dropdown a {
-  font-size: 1.4em;
+  font-size: 1.25em;
+  text-shadow: #b3a367 1px 0 10px;
 }
 
 ul li:hover > ul,
-ul li ul:hover {
-  visibility: visible;
+.dropdown:hover {
   transition: all 0.5s ease;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  background: #0d0d0c33;
   display: block;
 }
 
@@ -178,6 +180,14 @@ footer a {
     .title {
       margin-top: .75em;
     }
+
+    ul li:hover > ul,
+    .dropdown:hover {
+      top: 20px;
+      right: 10px;
+      background: none;
+}
+
 }
 
 @media only screen and (max-width: 900px) { /* alters layout on tours page when window is smaller */
