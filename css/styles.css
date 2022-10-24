@@ -44,6 +44,7 @@ nav ul li:not(.dropdown li) {
 }
 
 /* Drop-down Menu */
+
 #hover {
   position: relative;
 }
@@ -137,6 +138,7 @@ h2 {
   float: right;
   position: relative;
 }
+
 /* Footer */
 
 footer {
